@@ -1,0 +1,110 @@
+{% extends 'shablon.html'%}
+
+{% block title %}
+  Блог про лучших футболистов
+{% endblock %}
+
+
+
+{% block content %}
+    <h1>Блог</h1>
+
+  <br>
+  <br>
+  <br>
+  <hr class="rtl">
+  <br>
+  <br>
+  <br>
+
+  <div id="ballers" class="container">
+
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 25rem;">
+          <img src="../static/image/Ronaldo.jpg" class="card-img-top" alt="Роналду">
+          <div class="card-body">
+            <h5 class="card-title">Криштиану Роналду</h5>
+            <p class="card-text">Криштиану Роналду — один из лучших футбольных игроков современности. Он родился в Португалии и начал свою профессиональную карьеру в «Спортинге». За свою карьеру он выступал за такие клубы, как «Манчестер Юнайтед», «Реал Мадрид», «Ювентус» и «Манчестер Юнайтед» снова. Роналду отличает выдающаяся техника, скорость и способность забивать голы в самых сложных ситуациях. Он является обладателем множества наград и рекордов, подтверждающих его статус одного из величайших футболистов всех времен.</p>
+            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D1%88%D1%82%D0%B8%D0%B0%D0%BD%D1%83_%D0%A0%D0%BE%D0%BD%D0%B0%D0%BB%D0%B4%D1%83" class="btn btn-outline-success" target="_blank">Больше информации</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 25rem;">
+          <img src="../static/image/Neymar.jpg" class="card-img-top" alt="Неймар">
+          <div class="card-body">
+            <h5 class="card-title">Неймар Джуниор</h5>
+            <p class="card-text">Неймар — талантливый бразильский футболист, известный своей техникой и креативностью. Он начал профессиональную карьеру в «Сантосе», где проявил свои яркие способности. Позже он играл за такие клубы, как «Барселона» и «Пари Сен Жермен», завоевав множество трофеев. Неймар славится своим дриблингом, скоростью и умением создавать голевые моменты. Он считается одним из лучших игроков своего поколения и важной фигурой в мировом футболе.</p>
+            <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B9%D0%BC%D0%B0%D1%80" class="btn btn-outline-success" target="_blank">Больше информации</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 25rem;">
+          <img src="../static/image/Messi.jpg" class="card-img-top" alt="Месси">
+          <div class="card-body">
+            <h5 class="card-title">Лионель Месси</h5>
+            <p class="card-text">Лионель Месси — один из величайших футболистов в истории. Он родился в Аргентине и начал свою карьеру в клубе «Барселона», где стал знаменитым благодаря своей технике и игровой мудрости. За свою карьеру он выиграл множество трофеев, включая Лигу чемпионов и чемпионаты Испании. Месси известен своей невероятной дриблингом, видением поля и способностью создавать голевые моменты. Он считается одним из самых талантливых и вдохновляющих игроков современности.</p>
+            <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%81%D0%B8,_%D0%9B%D0%B8%D0%BE%D0%BD%D0%B5%D0%BB%D1%8C" class="btn btn-outline-success" target="_blank">Больше информации</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <br>
+  <br>
+  <br>
+  <hr class="rtl">
+  <br>
+  <br>
+  <br>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Рекорд Месси
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Лионель Месси</strong>установил рекорд по количеству голов за один клуб — за «Барселону» он забил более 600 мячей за карьеру, что стало абсолютным рекордом в истории футбола.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Французская сборная на ЧМ 2018 в России
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>В 2018 году французская сборная</strong>выиграла чемпионат мира, обыграв Хорватию со счетом 4:2 в финале, и это была их вторичная победа на мировом первенстве после 1998 года.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Гендерное равенство
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>В 2019 году был проведен первый в истории матч</strong>с участием двух женщин-игроков, которые выступали за мужские профессиональные клубы — это событие стало важным шагом в развитии женского футбола и гендерного равенства в спорте.
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
